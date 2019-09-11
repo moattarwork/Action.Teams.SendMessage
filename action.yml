@@ -1,10 +1,12 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: "Send build success message to Microsoft Teams"
+description: "Send message to a web hook assigned to a Microsoft Teams Channel"
+author: "Mohammad Moattar"
 inputs:
-  myInput:              # change this
-    description: 'input description here'
-    default: 'default value if applicable'
+  webhook-url:
+    description: "url of the web hook in microsoft team"
+  message:
+    description: "message to send to Microsoft Teams"
+    default: "Build has successfully done."
 runs:
-  using: 'node12'
-  main: 'lib/main.js'
+  using: "node12"
+  main: "lib/main.js"
