@@ -20,7 +20,7 @@
   "author": "YourNameOrOrganization",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.0.0",
+    "@actions/core": "^1.2.6",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   },
